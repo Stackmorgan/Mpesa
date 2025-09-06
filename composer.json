@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "hi@osen.co.ke",
+            "homepage": "https://osen.co.ke",
+            "name": "Osen Concepts",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Osen\\Mpesa\\": "src/"
+        }
+    },
+    "description": "Intuitive and Comprehensive M-PESA SDK for PHP Applications. Just Plug 'N Play",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "name": "osenco/mpesa",
+    "readme": "README.md",
+    "require": {
+        "php": ">=7.4"
+    },
+    "support": {
+        "email": "hi@osen.co.ke",
+        "issues": "https://github.com/osenco/mpesa/issues"
+    },
+    "type": "library"
+}
